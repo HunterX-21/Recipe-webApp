@@ -1,0 +1,33 @@
+.recipe {
+  border-radius: 20px;
+  box-shadow: 0 5 10 #474747;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: seashell;
+  align-items: center;
+  min-width: 40%;
+}
+.image {
+  border-radius: 5%;
+}
+li {
+  font-weight: bold;
+}
+
+#light {
+  background-position: #f3ebf6;
+}
+
+#dark {
+  background: #202020;
+}
+
+#light .main {
+  background: #fff;
+}
+
+#dark .main {
+  background: #202020;
+}

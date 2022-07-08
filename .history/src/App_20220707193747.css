@@ -1,0 +1,71 @@
+.body {
+  min-height: 100vh;
+  color: #1a202c;
+  transition: color 0.2s ease-in;
+}
+#light {
+  background-color: #f3ebf6;
+}
+
+#dark {
+  background-color: #202020;
+  color: white;
+}
+
+#light .main {
+  background-color: #fff;
+}
+
+#dark .main {
+  background-color: #202020;
+  color: white;
+}
+
+switch {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light .switch label {
+  color: black;
+}
+
+#dark .switch label {
+  color: white;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+}
+.search-button {
+  background: lightslategrey;
+  border: none;
+  padding: 15px 25px;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header {
+  position: absolute;
+}

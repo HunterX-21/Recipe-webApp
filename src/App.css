@@ -1,0 +1,92 @@
+.body {
+  min-height: 100vh;
+  color: #1a202c;
+  transition: color 0.2s ease-in;
+  overflow: hidden;
+}
+
+.name{
+  font-style: italic;
+  font-family: cursive;
+  justify-self: end;
+  text-align: center;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#light {
+  background-color: #f3ebf6;
+}
+
+#dark {
+  background-color: #202020;
+  color: white;
+}
+
+.switch {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.switch label {
+  margin: 10px;
+  font-weight: bold;
+  font-size: small;
+
+
+}
+
+#light .switch label {
+  color: black;
+}
+
+#dark .switch label {
+  color: white;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.search-button {
+  background: lightslategrey;
+  border: none;
+  padding: 15px 25px;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header {
+  position: absolute;
+}
